@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 import java.util.ArrayList;
@@ -27,7 +28,7 @@ public class Principal extends AppCompatActivity {
     }
     //METODO PARA EL BOTON MOSTRAR
     public void clickMostrar(View v){
-        inMostrar.putExtra("arrayList",rRestaurantes);//MANDAMOS LA LISTA A MOSTRAR
+        inMostrar.putExtra("restaurantes",rRestaurantes);//MANDAMOS LA LISTA A MOSTRAR
         startActivity(inMostrar);
     }
     //METODO PARA EL BOTON SALIR

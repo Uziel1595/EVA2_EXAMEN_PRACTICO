@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".Capturar" />
         <activity android:name=".Mostrar" />
-        <activity android:name=".SeleccionImagenes"></activity>
+        <activity android:name=".SeleccionImagenes" />
+        <activity android:name=".EvaluacionRestaurante"></activity>
     </application>
 
 </manifest>
