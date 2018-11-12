@@ -13,14 +13,15 @@
         <ImageView
             android:id="@+id/mainIV"
             android:layout_width="0dp"
-            android:layout_height="148dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
             android:layout_weight="1.5"
             app:srcCompat="@drawable/cafelore" />
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
             android:layout_weight="1.5"
             android:orientation="vertical"
             android:padding="5dp">
@@ -48,21 +49,24 @@
         <ImageView
             android:id="@+id/star1IV"
             android:layout_width="0dp"
-            android:layout_height="154dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
             android:layout_weight="0.3"
             app:srcCompat="@drawable/star_full" />
 
         <ImageView
             android:id="@+id/star2IV"
             android:layout_width="0dp"
-            android:layout_height="154dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
             android:layout_weight="0.3"
             app:srcCompat="@drawable/star_full" />
 
         <ImageView
             android:id="@+id/star3IV"
             android:layout_width="0dp"
-            android:layout_height="154dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
             android:layout_weight="0.3"
             app:srcCompat="@drawable/star_full" />
     </LinearLayout>
